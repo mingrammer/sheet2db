@@ -2,7 +2,7 @@
 
 Sheet2db is a tiny python library for one-way syncing the Google spreadsheet to database. (Currently, it supports only MySQL)
 
-It is useful when you're managing some static data on Google spreadsheet, but also want to sync the sheet data to database.
+It is useful for managing some static data on Google spreadsheet, but also want to sync the sheet data to database.
 
 ***Sheet2db DOES NOT collect any your secret values!***
 
