@@ -1,0 +1,19 @@
+# Compiled source
+__pycache__/
+*.pyc
+
+# Build and packages
+sheet2db.egg-info
+dist/
+build/
+
+# IDE and editor
+.idea/
+.vscode/
+
+# Credentials
+credentials.json
+token.json
+
+# Trash
+.DS_Store
