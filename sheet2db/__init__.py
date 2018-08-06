@@ -1,9 +1,5 @@
-import sys
-
-import httplib2
 import pymysql
 from apiclient.discovery import build
-from apiclient.errors import HttpError
 
 
 __version__ = '0.0.1'
