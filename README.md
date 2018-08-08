@@ -38,8 +38,8 @@ syncer = Sheet2db('AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk')
 
 # Fetch data from spreadsheet
 syncer.fetch(
-    sheet_id = '1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE',
-    tab_name = 'items',
+    sheet = '1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE',
+    tab = 'items',
     range = 'A1:D')
 
 # Sync fetched data to database (mysql)
