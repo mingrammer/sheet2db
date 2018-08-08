@@ -30,6 +30,8 @@ Example sheet format (**items** tab):
 
 Following example will sync **items** tab of **1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE** spreadsheet to database:
 
+> "AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk" is a fake api key
+
 ```python
 from sheet2db import Sheet2db
 
@@ -38,18 +40,18 @@ syncer = Sheet2db('AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk')
 
 # Fetch data from spreadsheet
 syncer.fetch(
-    sheet = '1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE',
-    tab = 'items',
-    range = 'A1:D')
+    sheet='1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE',
+    tab='items',
+    range='A1:D')
 
 # Sync fetched data to database (mysql)
 syncer.sync(
-    host = '192.168.168.10',
-    port = 3306,
-    user = 'mingrammer',
-    password = 'p@ssw0rd',
-    db = 'static',
-    table = 'items')
+    host='192.168.168.10',
+    port=3306,
+    user='mingrammer',
+    password='p@ssw0rd',
+    db='static',
+    table='items')
 ```
 
 You can also use ssh tunneling to access to remote database with **sshtunnel**
