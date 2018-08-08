@@ -14,7 +14,7 @@ pip install sheet2db
 
 # Usage
 
-> You must have API key which is accessible to Google Spreadsheet API
+> You must have API key or OAuth credentials which is accessible to Google Spreadsheet API
 
 Example sheet format (**items** tab):
 
