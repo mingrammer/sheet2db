@@ -35,8 +35,13 @@ Following example will sync **items** tab of **1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYla
 ```python
 from sheet2db import Sheet2db
 
-# Provide API key
-syncer = Sheet2db('AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk')
+# Pass API key
+syncer = Sheet2db(api_key='AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk')
+
+# If you need to access to private spreadsheet, you can't use API key. Use oauth credentials instead.
+syncer = Sheet2db(
+    creds_path='credentials.json',
+    token_path='token.json')
 
 # Fetch data from spreadsheet
 syncer.fetch(
