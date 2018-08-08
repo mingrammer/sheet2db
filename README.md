@@ -14,7 +14,7 @@ pip install sheet2db
 
 # Usage
 
-> You must have API key or OAuth credentials which is accessible to Google Spreadsheet API
+> You must have API key or OAuth credentials which is accessible to Google Spreadsheet API.
 
 Example sheet format (**items** tab):
 
@@ -30,7 +30,7 @@ Example sheet format (**items** tab):
 
 Following example will sync **items** tab of **1U3un2ZJPRhLrWzc2DMXq8VI7Nqf9pYlajfO4mQVCZpE** spreadsheet to database:
 
-> "AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk" is a fake api key
+> "AIzaSyC6pabjqmaPiguYoHbq4W7a0DV0wQg5JGk" is a fake api key.
 
 ```python
 from sheet2db import Sheet2db
@@ -59,7 +59,7 @@ syncer.sync(
     table='items')
 ```
 
-You can also use ssh tunneling to access to remote database with **sshtunnel**
+You can also sync to remote database via ssh tunneling with **sshtunnel**.
 
 ```python
 with sshtunnel.SSHTunnelForwarder(
