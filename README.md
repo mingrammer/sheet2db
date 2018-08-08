@@ -71,7 +71,7 @@ with sshtunnel.SSHTunnelForwarder(
 ) as tunnel:
     syncer.sync(
         host = tunnel.local_bind_host,
-        port = tunnel.local_bind_host,
+        port = tunnel.local_bind_port,
         user = 'mingrammer',
         password = 'p@ssw0rd',
         db = 'static',
