@@ -5,7 +5,7 @@ from oauth2client import client
 from oauth2client import file as oauth_file
 from oauth2client import tools
 
-__version__ = '0.0.1'
+__version__ = '1.0.0'
 __author__ = 'mingrammer'
 __license__ = 'MIT'
 
