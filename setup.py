@@ -76,7 +76,7 @@ setup(
     packages=find_packages(),
     install_requires=REQUIRED,
     include_package_data=True,
-    # license=sheet2db.__license__,
+    license=sheet2db.__license__,
     python_requires='>=3',
     classifiers=[
         'License :: OSI Approved :: MIT License',
