@@ -1,4 +1,18 @@
-# Sheet2db
+<br><br>
+
+<h1 align="center">Sheet2db</h1>
+
+<p align="center">
+  <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+  <a href="https://badge.fury.io/py/sheet2db"><img src="https://badge.fury.io/py/sheet2db.svg"></a>
+  <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-3.x-blue.svg"/></a>
+</p>
+
+<p align="center">
+  Sync the Google spreadsheet to database
+</p>
+
+<br><br><br>
 
 Sheet2db is a tiny python library for one-way syncing the Google spreadsheet to database. (Currently, it supports only MySQL)
 
